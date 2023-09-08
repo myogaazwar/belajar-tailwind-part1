@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ventum Store</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+  <!-- Header -->
+  <header class="bg-indigo-500 text-white sticky top-0 z-10">
+    <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-3xl font-medium">
+        <a href="#hero">👕 Ventum Store</a>
+      </h1>
+      <div>
+        <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none"> &#9776; </button>
+        <!-- Nav -->
+        <nav class=" hidden sm:block space-x-8 text-xl" aria-label="main">
+          <a href="#produk" class="hover:opacity-90 hover:border-b-4 ">Our Produk</a>
+          <a href="#testimonials" class="hover:opacity-90 hover:border-b-4">Testimonials</a>
+          <a href="#contact" class="hover:opacity-90 hover:border-b-4">Contact Us </a>
+          <!-- //Navbar -->
+      </div>
+    </section>
+  </header>
+  <!-- //Header -->
+
+  <main class="max-w-6xl mx-auto">
+    <section id="hero"
+      class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40">
+      <article class="sm:w-1/2">
+        <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
+          Ventum Store
+          <span class="text-indigo-500 dark:text-indigo-300"> Melayani Harimu</span> & <span
+            class="text-indigo-500 dark:text-indigo-300"> Fashionmu </span>
+          Yang Hilang...
+        </h2>
+        <p class="w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+          Kita menciptakan baju yang hebat untuk dirimu, bangkitkan dengan mahakarya kami!
+        </p>
+        <p class="w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+          Pikirkan Kembali !
+        </p>
+      </article>
+      <img class="w-1/2" src="./img/T-shirt logo nike.jpg" alt="">
+    </section>
+    <hr class="mx-auto bg-black dark:bg-white w-1/2 border-b-4">
+
+
+    <section id="produk" class="p-6 my-12 scroll-mt-20 ">
+      <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
+        Our Produk
+      </h2>
+      <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+        <li
+          class=" w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+          <img src="./img/Geoff Max Official Timeless Low Us Red Broken White Unisex.jpg" alt="" class=" w-10/12 mb-6">
+          <h3 class="text-2xl text-center text-slate-900 dark:text-white">Sepatu Geof Max Official</h3>
+          <p class=" hidden sm:block  text-3xl text-center text-slate-500 dark:text-slate-400 mt-2">$</p>
+          <p class="sm:hidden text-2xl text-center text-slate-500  mt-2 dark:text-slate-400">Rp.250.000</p>
+        </li>
+
+        <li
+          class=" w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+          <img src="./img/GMX x Mike Milford Gavin Black Gum STZ.jpg" alt="" class=" w-10/12 mb-6">
+          <h3 class="text-2xl text-center text-slate-900 dark:text-white">Sepatu GMX Mike Milford</h3>
+          <p class=" hidden sm:block  text-3xl text-center text-slate-500 dark:text-slate-400 mt-2">$</p>
+          <p class="sm:hidden text-2xl text-center text-slate-500  mt-2 dark:text-slate-400">Rp.150.000</p>
+        </li>
+
+        <li
+          class=" w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+          <img src="./img/Sepatu Kodachi 8112 Navy Sneakers Unisex Capung.jpg" alt="" class=" w-10/12 mb-6">
+          <h3 class="text-2xl text-center text-slate-900 dark:text-white">Sneakers Navy Kodachi</h3>
+          <p class=" hidden sm:block  text-3xl text-center text-slate-500 dark:text-slate-400 mt-2">$</p>
+          <p class="sm:hidden text-2xl text-center text-slate-500  mt-2 dark:text-slate-400">Rp.450.000</p>
+        </li>
+
+      </ul>
+    </section>
+    <hr class="mx-auto bg-black dark:bg-white w-1/2 border-b-4">
+
+
+    <section id="#testimonials" class="p-6 my-12 ">
+      <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
+        Testimonials
+      </h2>
+      <figure class="my-12">
+        <blockquote class="bg-indigo-500 dark:bg-black pl-14 pr-8 py-12 rounded-3xl-relative">
+          <p
+            class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 
+            after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2 after:translate-y-2 ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam necessitatibus mollitia tempora
+            dignissimos! Dolores aspernatur quos officiis sunt assumenda ab placeat soluta maxime reprehenderit hic
+            error, consequuntur eaque totam?
+          </p>
+        </blockquote>
+        <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-900 dark:text-slate-400">
+          &#8212; Muhammad Yoga Azwar
+      </figcaption>
+      </figure>
+    </section>
+    <hr class="mx-auto bg-black dark:bg-white w-1/2 border-b-4">
+
+    <section id="#contact" class="p-6 my-12 ">
+      <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
+        Contact Us
+      </h2>
+    </section>
+    <hr class="mx-auto bg-black dark:bg-white w-1/2 border-b-4">
+  </main>
+
+</body>
+
+</html>
